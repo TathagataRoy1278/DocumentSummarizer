@@ -1,0 +1,17 @@
+------------------------------
+Plan - 
+
+Structure - ANN with Pearson Correlation
+
+The inputs will be the body of the article and the title
+The ANN will be a logistic regression model. Given each sentence vetor it will predict if it will be included in the summary.
+After all the sentences are run thro
+
+
+
+
+Using minmax(1) and avg(2) vector methods to combine sentence vectors both seem to work with minmax having
+a higher accuracy. -- 1.11.20
+
+------------------------------
+
