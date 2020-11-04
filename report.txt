@@ -10,7 +10,7 @@ i tokenize the text of the article into sentences and save the title of the webp
 Then loop through each tokenized sentence and calculate the pearson score of each sentence vs the title sentence, if the score
 is greater than a specific value(base = 0.5) then add it to the summary.
 
-The resultant summary is 1/5th of the priginal document length.(tested on only one document as of now)
+The rating of this working is 6/10
 
 The modified Processes:
 
@@ -22,7 +22,7 @@ modified by adding that sentence vector to the title vector.
 This is because, while talking about a subject, we may talk about a subtopic, which may not be directly linked to the original 
 title but still important
 
-this yields results which are not very desirable as the summary is 90% the size of the original text
+
 
 *half-tested idea :  weighted addition of sentence vectors : putting weight 0.5 for new sentence vectors doesnt seem to change a
 lot. have to  test with new weights

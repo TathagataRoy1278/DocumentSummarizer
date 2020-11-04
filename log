@@ -7,4 +7,9 @@ embeddings, as mentioned in errors.txt
 
 Wednesday 04 November 2020 12:17:28 PM IST
 
-Integrated glove word embedding as stated above. Proceeding to modify the program and remove bugs
+Integrated glove word embedding as stated above. Proceeding to modify the program and remove bug
+
+Realized that the values were changing because the word embeddings were value by reference, and I was changing the values of the
+main vectors -_-
+
+
