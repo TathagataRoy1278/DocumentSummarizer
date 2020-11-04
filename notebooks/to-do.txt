@@ -1,0 +1,2 @@
+use cummulative vectors with title
+use both words into sentence vector combination function

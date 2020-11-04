@@ -1,0 +1,8 @@
+In main.ipynb, in method getSummary, when the line title_vector = sentencevector_avg_weighted(nlp(title),nlp(sentence_token),0.5)
+is included, things start malfunctioning :-
+
+the vector title_vector is loaded different in all subsequent method calls, and the only way to load the original is to load
+the word vector model "en_core_web_lg" again(which makes debugging a pain since it takes so much time)
+
+after removing the word vector which was changing continuosly, I stopped using "en_core_web_lg", switching to nlp.standford.edu/data/glove.6B.zip", which will
+hopefully stop the errors, testing recquired
